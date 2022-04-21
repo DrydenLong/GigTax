@@ -1,0 +1,239 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_floating-labels.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_form-check.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_form-control.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_form-range.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_form-select.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_form-text.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_input-group.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_labels.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\forms\_validation.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_clearfix.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_colored-links.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_position.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_ratio.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_stacks.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_stretched-link.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_text-truncation.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_visually-hidden.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\helpers\_vr.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_alert.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_backdrop.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_border-radius.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_box-shadow.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_breakpoints.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_buttons.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_caret.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_clearfix.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_color-scheme.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_container.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_deprecate.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_forms.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_gradients.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_grid.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_image.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_list-group.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_lists.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_pagination.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_reset-text.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_resize.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_table-variants.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_text-truncate.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_transition.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_utilities.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\mixins\_visually-hidden.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\utilities\_api.scss" />
+    <Content Remove="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\vendor\_rfs.scss" />
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\bootstrap-grid.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\bootstrap-reboot.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\bootstrap-utilities.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\bootstrap.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_accordion.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_alert.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_badge.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_breadcrumb.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_button-group.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_buttons.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_card.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_carousel.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_close.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_containers.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_dropdown.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_forms.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_functions.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_grid.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_helpers.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_images.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_list-group.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_mixins.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_modal.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_nav.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_navbar.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_offcanvas.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_pagination.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_placeholders.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_popover.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_progress.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_reboot.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_root.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_spinners.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_tables.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_toasts.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_tooltip.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_transitions.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_type.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_utilities.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\dlong\.nuget\packages\bootstrap.sass\5.1.3\contentFiles\any\any\wwwroot\scss\_variables.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\eye_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\airbnb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\doordash.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\etsy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\fiverr.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\instacart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\lyft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\rover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\taskrabbit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\thumbtack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\uber.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\ubereats.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\platforms\vrbo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scss\custom\GigTax.scss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\platforms\" />
+  </ItemGroup>
+
+</Project>
